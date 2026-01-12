@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVS Abhinav Sarma - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 0 0 15px 15px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 10px auto;
+            max-width: 900px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #5a6c7d;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+
+        section {
+            background-color: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border: 2px solid #b8d4e0;
+            border-radius: 15px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #2c3e50;
+            border-bottom: 3px solid #3498db;
+            padding-bottom: 8px;
+            border-radius: 3px;
+        }
+
+        .float-left {
+            float: left;
+            margin-right: 15px;
+            margin-bottom: 10px;
+        }
+
+        .float-right {
+            float: right;
+            margin-left: 15px;
+            margin-bottom: 10px;
+        }
+
+        .service-box {
+            background-color: #ecf7fb;
+            padding: 18px;
+            margin: 12px 0;
+            border-radius: 10px;
+            border: 2px solid #3498db;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+        }
+
+        .portfolio-item {
+            margin: 15px 0;
+            padding: 15px;
+            background-color: #f8fcfd;
+            border-left: 5px solid #3498db;
+            border-radius: 10px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+
+        aside {
+            background-color: #fff3cd;
+            padding: 18px;
+            margin: 20px 0;
+            border-left: 5px solid #ffc107;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.08);
+        }
+
+        .contact-info {
+            line-height: 2;
+        }
+
+        img {
+            border: 3px solid #3498db;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to MVS Abhinav Sarma's Portfolio</h1>
+        <p>BTech 2nd Year Student | Web Development Enthusiast</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Me</a>
+        <a href="#services">Services</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="https://github.com" target="_blank">GitHub</a>
+    </nav>
+
+    <!-- Main Content Container -->
+    <div class="container">
+
+        <!-- Home Section -->
+        <section id="home">
+            <h2>Introduction</h2>
+            <p>Hello! Welcome to my portfolio website. This website contains information about me, my skills, and the projects I have worked on. I created this website as part of my web development assignment to demonstrate my HTML and CSS skills.</p>
+            <p>Feel free to explore the different sections using the navigation menu above. You can learn more about me, see the services I offer, check out my portfolio work, and find my contact information.</p>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about">
+            <h2>About Me</h2>
+            
+            <img src="abhinav passport.jpg" 
+                 alt="My Photo" class="float-left" width="150">
+            
+            <p>My name is <span style="font-weight: bold; color: #4285f4;">MVS Abhinav Sarma</span> and I am currently a BTech 2nd Year (2nd Semester) student studying Computer Science. I am passionate about learning new technologies and creating websites. This portfolio represents my journey in learning HTML and CSS.</p>
+            
+            <p>I enjoy solving problems through code and building things that are useful. In my free time, I like to explore new programming concepts and work on personal projects to improve my skills.</p>
+            
+            
+            <p>My goal is to become a skilled web developer and work on interesting projects. I believe in continuous learning and staying updated with the latest trends in technology. Through this course, I am building a strong foundation in web development.</p>
+
+            <div style="clear: both;"></div>
+
+            <h3>My Hobbies and Interests</h3>
+            <div>
+                <img src="reading hobby.jpg" 
+                     alt="Reading Hobby" width="200" style="margin: 10px;">
+                <img src="coding hobby.jpg" 
+                     alt="Coding Hobby" width="200" style="margin: 10px;">
+                
+            </div>
+        </section>
+
+        <!-- Aside Section -->
+        <aside>
+            <h3>Quick Note</h3>
+            <p>This website is created for educational purposes as part of my HTML and CSS assignment.</p>
+        </aside>
+
+        <!-- Services Section -->
+        <section id="services">
+            <h2>Services</h2>
+            
+            <div class="service-box">
+                <h3>Web Design</h3>
+                <p>Creating simple and clean website designs using HTML and CSS.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>HTML Development</h3>
+                <p>Building web pages with proper semantic HTML structure.</p>
+            </div>
+
+            <div class="service-box">
+                <h3>CSS Styling</h3>
+                <p>Applying styles and layouts to make websites look presentable.</p>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio">
+            <h2>My Portfolio</h2>
+            
+            <div class="portfolio-item">
+                <h3><a href="https://abhinavmvs007.github.io/Newyearevent_page/" target="_blank">New Year Event Website</a></h3>
+                <a href="https://abhinavmvs007.github.io/portfolio/" target="_blank">
+                </a>
+                <p>This was my first HTML project where I learned about basic tags and structure.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            
+            <div class="contact-info">
+                <p><strong>Email:</strong> <a href="mailto:abhinavsharmamvs@gmail.com">abhinavsharmamvs@gmail.com</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/Abhinavmvs007" target="_blank">github.com/Abhinavmvs007</a></p>
+            </div>
+
+            <p>Feel free to contact me through email or connect with me on social media platforms.</p>
+        </section>
+
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 24BAI0125 MVS ABHINAV SARMA</p>
+        <p><a href="#home" style="color: white;">Back to Top</a></p>
+    </footer>
+
+</body>
+</html>
